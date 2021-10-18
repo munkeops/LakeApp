@@ -6,6 +6,6 @@ Building an app for the residential community to be upto date with events, artic
 
 ## Preview
 
-![Alt text](assets\images\flutter_lake_app.jpg)
+![Alt text](assets/images/flutter_lake_app.jpg)
 
 
