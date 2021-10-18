@@ -14,7 +14,37 @@ class Body extends StatelessWidget {
       child: Column(
         children: <Widget>[
           HeaderWithSearchBox(size: size),
-          TitleWithMoreBtn(title: "Recommended", press: () {}),
+          TitleWithMoreBtn(title: "Events", press: () {}),
+          SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: Row(
+              children: <Widget>[
+                RecommendPlantCard(
+                  image: "assets/images/christmas2.jpg",
+                  title: "New Year\n",
+                  loc: "Club House",
+                  datentime: "Dec 31\n 12:00am",
+                  press: () {},
+                ),
+                RecommendPlantCard(
+                  image: "assets/images/christmas1.jpg",
+                  title: "Christmas\n",
+                  loc: "Club House",
+                  datentime: "Dec 25\n 7:00pm",
+                  press: () {},
+                ),
+                RecommendPlantCard(
+                  image: "assets/images/christmas1.jpg",
+                  title: "Christmas\n",
+                  loc: "Club House",
+                  datentime: "Dec 25\n 7:00pm",
+                  press: () {},
+                ),
+              ],
+            ),
+          ),
+          // HeaderWithSearchBox(size: size),
+          TitleWithMoreBtn(title: "Articles", press: () {}),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
             child: Row(
